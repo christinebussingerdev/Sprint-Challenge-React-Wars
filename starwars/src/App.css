@@ -6,3 +6,22 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.character-profile {
+  box-sizing: border-box;
+  padding: 20px;
+  /* width: 200px; */
+  color: white;
+  width: 30%;
+  margin: 15px;
+  background-color: rgb(22, 21, 27);
+
+}
+
+.profile-case {
+
+  display: flex;
+  flex-direction: col;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+}
